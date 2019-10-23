@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(to top right, rgb(100, 30, 133), rgb(39, 136, 226));
+    height: 600px;
+    width: 600px;
+    background-repeat:no-repeat;
+
+
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc( (100% - 800px) / 2 );
+    position: absolute;
+    top: 150px;
+
+}
+
+section {
+    display: inline-block;
+    background-color: white;
+    width: 38%;
+    height: 260px;
+    
+}
+
+h1 {}
+
+h4 {}
+
+form {
+    background-color: aqua;
+    width: 62%;
+    float: right;
+    height: 300px;
+    margin-top: -20px;
+}
+
+#user1 {
+    display:block;
+    color: lightgray;
+}
+
+#user {
+    display:block;
+}
+
+#email1 {
+    display:block;
+}
+
+#email {
+    display:block;
+ 
+}
+
+#pass1 {
+    display:block;
+}
+
+#pass {
+    display:block;
+}
+
+#repeat1 {
+    display:block;
+}
+
+#repeat {
+    display:block;
+}
+
+div > button {
+    background-color: brown;
+    display: inline-block;
+}
+
+div > h6 {
+    background-color: red;
+    width: 20px;
+    float: left;
+}
+
+div > a {
+    background-color: yellow;
+    text-decoration: none;
+    float: right;
+}
