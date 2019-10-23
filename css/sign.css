@@ -78,11 +78,11 @@ div > button {
 div > h6 {
     background-color: red;
     width: 20px;
-    float: left;
+    display: inline-block;
 }
 
 div > a {
     background-color: yellow;
     text-decoration: none;
-    float: right;
+    display: inline-block;
 }
