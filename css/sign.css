@@ -18,16 +18,54 @@ main {
 
 section {
     display: inline-block;
-    background-color: blue;
+    background-image: url("/images/kalnai.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
     width: 38%;
     height: 460px;
+    color:white;
+    font-family: monospace;
+   }
 
-    
+h1 {
+    display: block;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
 }
 
-h1 {}
+#h6 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 320px;
+    float:left;
+    color:white;
+    margin-right: -5px;
+}
 
-h5 {}
+#h5 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 320px;
+    float:left;
+    color:white;
+
+}
+
+h5 {
+    display: inline-block;
+    float:left;
+    margin-left: 15px;
+    margin-right: -20px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 320px;
+}
+
+span {
+    text-decoration-line: underline;;
+}
 
 form {
     display: inline-block;
@@ -38,10 +76,15 @@ form {
     height: 500px;
     margin-top: -20px;
 }
+form > img {
+    display: inline-block;
+    float:right;
+    padding: 15px;
+}
 
 #user1 {
     display:block;
-    padding: 50px 0 10px 0;
+    padding: 70px 0 10px 0;
     position: relative;
     left: 90px;
     text-transform: uppercase;
