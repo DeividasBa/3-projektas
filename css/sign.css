@@ -1,26 +1,25 @@
 body {
     background-image: linear-gradient(to top right, rgb(100, 30, 133), rgb(39, 136, 226));
     height: 641px;
-    width: 600px;
+    width: 1350px;
 }
 
 main {
     display: inline-block;
     width: 800px;
     margin-left: calc( (100% - 800px) / 2 );
-    position: absolute;
+    position: relative;
     top: 110px;
 }
 
 section {
     display: inline-block;
     background-image: url("/images/kalnai.png");
-    width: 40%;
-    height: 460px;
+    width: 300px;
+    height: 450px;
     color:white;
     font-family: monospace;
-    opacity: 0.5;
-
+    margin-left:20px;
    }
 
 h1 {
