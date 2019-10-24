@@ -2,7 +2,7 @@ form {
     display: inline-block;
     background-color: white;
     color: gray;
-    width: 62%;
+    width: 60%;
     float: right;
     height: 500px;
     margin-top: -20px;
@@ -99,7 +99,7 @@ div {
     padding-top:55px;
 }
 
-div > button {
+.mygtukas {
     background-image: linear-gradient(to top right, rgb(100, 30, 133), rgb(39, 136, 226));
     display: inline-block;
     position: relative;
