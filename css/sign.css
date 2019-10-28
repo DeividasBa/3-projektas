@@ -14,7 +14,7 @@ main {
 
 section {
     display: inline-block;
-    background-image: url("/images/kalnai.png");
+    background-image: url("../images/kalnai.png");
     width: 300px;
     height: 450px;
     color:white;
